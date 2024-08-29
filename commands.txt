@@ -1,0 +1,59 @@
+PS C:\Users\vnssv\Desktop\git cse> code chapter.txt
+PS C:\Users\vnssv\Desktop\git cse> git init
+Initialized empty Git repository in C:/Users/vnssv/Desktop/git cse/.git/
+PS C:\Users\vnssv\Desktop\git cse> git add chapter.txt
+PS C:\Users\vnssv\Desktop\git cse> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   chapter.txt
+
+PS C:\Users\vnssv\Desktop\git cse> git add chapter2.txt
+fatal: pathspec 'chapter2.txt' did not match any files
+PS C:\Users\vnssv\Desktop\git cse> git add.chapter2.txt
+git: 'add.chapter2.txt' is not a git command. See 'git --help'.
+Reinitialized existing Git repository in C:/Users/vnssv/Desktop/git cse/.git/
+PS C:\Users\vnssv\Desktop\git cse> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   chapter.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        chapter2.txt
+
+PS C:\Users\vnssv\Desktop\git cse> git init
+Reinitialized existing Git repository in C:/Users/vnssv/Desktop/git cse/.git/
+PS C:\Users\vnssv\Desktop\git cse> git add chapter2.txt
+PS C:\Users\vnssv\Desktop\git cse> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   chapter.txt
+        new file:   chapter2.txt
+PS C:\Users\vnssv\Desktop\git cse> git commit -m "initial commit"
+[master (root-commit) c16cfc7] initial commit
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 chapter.txt
+ create mode 100644 chapter2.txt
+PS C:\Users\vnssv\Desktop\git cse> code chapter3.txt,chapter4.txt,chapter5.txt
+PS C:\Users\vnssv\Desktop\git cse> code chapter3.txt
+PS C:\Users\vnssv\Desktop\git cse> code chapter4.txt
+PS C:\Users\vnssv\Desktop\git cse> code chapter5.txt
+S C:\Users\vnssv\Desktop\git cse> git add .
+PS C:\Users\vnssv\Desktop\git cse> git commit -m "initial commit"
+[master 1b8255c] initial commit
+ 3 files changed, 2 insertions(+)
+ create mode 100644 chapter3.txt
+ create mode 100644 chapter4.txt
+ create mode 100644 chapter5.txt
